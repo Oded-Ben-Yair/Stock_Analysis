@@ -1,0 +1,17 @@
+# Ignore virtual environments
+myenv/
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Node.js modules
+node_modules/
+package-lock.json
+
+# Ignore backup files
+*.py~
+*.ipynb~
+
+# Ignore Streamlit & Python cache
+__pycache__/
