@@ -1,4 +1,4 @@
-**#7-Day Stock Predictions with ARIMA**
+**7-Day Stock Predictions with ARIMA**
 
 Are you curious about how a specific stock might behave over the next few trading days? This repository provides an application that looks at a chosen ticker (for instance, AAPL, TSLA, or GOOG) and offers a projected closing price for the upcoming seven days. The primary intention is a technical demonstration and educational insight—it's not a stand-in for professional advice.
 
