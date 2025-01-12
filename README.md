@@ -1,8 +1,6 @@
-# 7-Day Stock Predictions with ARIMA
+**# 7-Day Stock Predictions with ARIMA**
 
-Are you curious about how a specific stock might behave over the next few trading days?
-This repository provides an application that looks at a chosen ticker (for instance, AAPL, TSLA, or GOOG) and offers a projected closing price for the upcoming seven days.
-The primary intention is a technical demonstration and educational insight—it's not a stand-in for professional advice.
+Are you curious about how a specific stock might behave over the next few trading days? This repository provides an application that looks at a chosen ticker (for instance, AAPL, TSLA, or GOOG) and offers a projected closing price for the upcoming seven days. The primary intention is a technical demonstration and educational insight—it's not a stand-in for professional advice.
 
 ## Key Highlights
 
@@ -16,15 +14,15 @@ The primary intention is a technical demonstration and educational insight—it'
 ## Setup Instructions
 
 1. **Clone** this repository:
-   "`bash
+   ```bash
    git clone https://github.com/YOUR_USERNAME/stockapp.git
    ```
 2. **Navigate** inside the `stockapp` folder:
-   "`bash
+   ```bash
    cd stockapp
    ```
 3. **Install** the necessary dependencies:
-   "`bash
+   ```bash
    pip install -r requirements.txt
    ```
 4. **Add** environment variables to your system:
@@ -34,7 +32,7 @@ The primary intention is a technical demonstration and educational insight—it'
 ## Running the App
 
 Type:
-"`bash
+```bash
 streamlit run Stock_Analysis.py
 ```
 Afterward, open your browser at the address shown in your terminal (usually `http://localhost:8501`). You can provide any valid stock ticker (e.g., `TSLA` or `MSFT`) there. Based on these insights, the app will produce a 7-day prediction, a line graph of the short-term outlook, and a recommendation from GPT-4.
@@ -73,3 +71,4 @@ Offered under the [MIT License](https://opensource.org/licenses/MIT). Feel free 
 ## Feedback
 
 Do you have feedback, issues, or ideas? Please open an issue or create a pull request. I welcome any suggestions to keep improving!
+
